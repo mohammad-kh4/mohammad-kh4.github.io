@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammad's Freelance Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      text-align: center;
+      color: #005a87;
+    }
+
+    .projects {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+
+    .card-body h2 {
+      margin: 0;
+      color: #007b9e;
+    }
+
+    .card-body p {
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔧 Mohammad's Freelance Projects</h1>
+  <div class="projects">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/abhinavkorpal/images-for-readme/main/arduino.jpg" alt="Arduino">
+      <div class="card-body">
+        <h2>Arduino</h2>
+        <p>Projects using Arduino Uno, Mega, Nano and custom shields.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/abhinavkorpal/images-for-readme/main/esp32.jpg" alt="ESP32">
+      <div class="card-body">
+        <h2>ESP32</h2>
+        <p>IoT and cloud-based systems with WiFi/Bluetooth using ESP32 boards.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/abhinavkorpal/images-for-readme/main/avr.jpg" alt="AVR">
+      <div class="card-body">
+        <h2>AVR</h2>
+        <p>Low-level embedded development using ATmega and related microcontrollers.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
