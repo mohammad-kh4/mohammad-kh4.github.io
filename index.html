@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelance Projects - Mohammad Kh</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+    }
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+    .card {
+      background-color: white;
+      width: 300px;
+      margin: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-align: center;
+      overflow: hidden;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 15px 0;
+      color: #00695c;
+    }
+    .card p {
+      padding: 0 15px 20px;
+      font-size: 14px;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Freelance Projects Hub</h1>
+    <p>Arduino ⚡ AVR ⚡ ESP32</p>
+  </header>
+
+  <div class="section">
+
+    <a href="arduino.html">
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/mohammad-kh4/mohammad-kh4.github.io/main/arduino-uno-rev3-arduino-a000066-30394855981251_1000x.jpg" alt="Arduino">
+        <h3>Arduino Projects</h3>
+        <p>Design, code, and deploy Arduino-based automation and sensor systems.</p>
+      </div>
+    </a>
+
+    <a href="esp32.html">
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/mohammad-kh4/mohammad-kh4.github.io/main/71-Uy449BbL._AC_UF894,1000_QL80_.jpg" alt="ESP32">
+        <h3>ESP32 Projects</h3>
+        <p>WiFi + Bluetooth smart IoT applications and real-time control using ESP32 boards.</p>
+      </div>
+    </a>
+
+    <a href="avr.html">
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/mohammad-kh4/mohammad-kh4.github.io/main/avr-microcontroller-02.jpg" alt="AVR">
+        <h3>AVR Microcontroller</h3>
+        <p>Low-level embedded development and PCB integration using AVR chips.</p>
+      </div>
+    </a>
+
+  </div>
+
+</body>
+</html>
