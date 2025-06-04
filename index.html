@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>محمد خانی | فریلنسر سیستم‌های امبدد</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      direction: rtl;
+    }
+    .hero {
+      height: 100vh;
+      background: linear-gradient(270deg, #004d40, #00695c, #009688);
+      background-size: 600% 600%;
+      animation: gradientFlow 10s ease infinite;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    @keyframes gradientFlow {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: fadeIn 1.2s ease forwards;
+    }
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-bottom: 30px;
+      line-height: 1.8;
+      animation: fadeIn 2s ease forwards;
+    }
+    .hero a {
+      display: inline-block;
+      padding: 12px 24px;
+      background: white;
+      color: #004d40;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+      animation: fadeIn 2.5s ease forwards;
+    }
+    .hero a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2em; }
+      .hero p { font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>محمد خانی | فریلنسر سیستم‌های امبدد</h1>
+    <p>در این سایت، مجموعه‌ای از پروژه‌های تخصصی من در زمینه‌ی آردوینو، ESP32 و AVR رو می‌تونید ببینید.  
+    اگر پروژه‌ای مرتبط داشتید، خوشحال می‌شم با من در ارتباط باشید.</p>
+    <a href="mailto:mohammad.khany147@gmail.com">📧 تماس با من</a>
+  </section>
+</body>
+</html>
